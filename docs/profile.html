@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amalia's Profile – Amaliaflix</title>
+  <meta name="description" content="Amalia's Amaliaflix profile – a curated record of personality traits, core memories, and the things that make her, her." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="profile.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <header class="nav" id="main-nav">
+    <div class="nav__left">
+      <a href="index.html" class="nav__logo" aria-label="Amaliaflix Home">
+        <span class="logo__amalia">A</span><span class="logo__flix">FLIX</span>
+      </a>
+    </div>
+    <div class="nav__right">
+      <a href="index.html" class="nav__back" id="back-link" aria-label="Back to home">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M19 12H5M12 5l-7 7 7 7"/>
+        </svg>
+        Back to Aflix
+      </a>
+      <div class="nav__avatar" aria-label="Profile">A</div>
+    </div>
+  </header>
+
+  <!-- ===== MAIN PAGE ===== -->
+  <main class="page" id="profile-page">
+
+    <!-- Profile Header -->
+    <div class="profile-header" id="profile-header">
+      <div class="profile-header__avatar" aria-label="Profile avatar">A</div>
+      <div class="profile-header__info">
+        <h1 class="profile-header__name">Amalia</h1>
+        <p class="profile-header__since">Member since 2006 · Season 20 now streaming</p>
+        <div class="profile-header__badges">
+          <span class="badge-pill badge-pill--red">🌟 Main Character</span>
+          <span class="badge-pill badge-pill--green">✔ Verified Chaotic Good</span>
+          <span class="badge-pill badge-pill--blue">🎬 20 Seasons Strong</span>
+          <span class="badge-pill badge-pill--gold">🏆 Critically Acclaimed</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Plan Info Box -->
+    <div class="info-box" id="profile-plan-box">
+      <div class="info-box__icon">🎂</div>
+      <div class="info-box__text">
+        <p class="info-box__title">Amaliaflix Premium · Unlimited Memories Plan</p>
+        <p class="info-box__desc">Your subscription includes: unlimited chaos, unlimited laughter, and access to 20 seasons of being the most genuinely wonderful person. Auto-renews on your birthday. Forever.</p>
+      </div>
+    </div>
+
+    <!-- ===== SECTION 1: PERSONALITY ===== -->
+    <section class="settings-section" id="section-personality" aria-labelledby="personality-title">
+      <div class="settings-section__header">
+        <div>
+          <h2 class="section-title" id="personality-title">Personality Settings</h2>
+          <p class="section-subtitle">Core traits that define who you are. Cannot be changed.</p>
+        </div>
+      </div>
+
+      <div class="settings-row" id="trait-kindness" role="button" tabindex="0" aria-label="Kindness setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--red">💛</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Kindness Level</p>
+            <p class="settings-row__value">Dangerously high · Makes others feel seen and heard</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <span class="settings-row__tag tag--locked">MAX</span>
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="trait-humor" role="button" tabindex="0" aria-label="Humor setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--gold">😂</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Humor & Wit</p>
+            <p class="settings-row__value">Spontaneous · Genuinely funny without even trying</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <span class="settings-row__tag tag--active">ON</span>
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="trait-loyalty" role="button" tabindex="0" aria-label="Loyalty setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--blue">🤝</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Loyalty & Friendship</p>
+            <p class="settings-row__value">Ride-or-die mode · Always shows up, always has your back</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <span class="settings-row__tag tag--locked">MAX</span>
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="trait-adventure" role="button" tabindex="0" aria-label="Adventure setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--purple">🗺️</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Adventurousness</p>
+            <p class="settings-row__value">Always up for a spontaneous plan · Zero hesitation</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <span class="settings-row__tag tag--active">ON</span>
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="trait-chaos" role="button" tabindex="0" aria-label="Chaos energy setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--orange">⚡</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Chaos Energy</p>
+            <p class="settings-row__value">Controlled chaos · Somehow always works out in the end</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <label class="toggle" aria-label="Toggle chaos energy">
+            <input type="checkbox" checked id="toggle-chaos" />
+            <span class="toggle__slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="settings-row" id="trait-passion" role="button" tabindex="0" aria-label="Passion setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--red">🔥</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Passion & Drive</p>
+            <p class="settings-row__value">Does things fully or not at all · No half-measures</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <label class="toggle" aria-label="Toggle passion">
+            <input type="checkbox" checked id="toggle-passion" />
+            <span class="toggle__slider"></span>
+          </label>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 2: CORE MEMORIES ===== -->
+    <section class="settings-section" id="section-memories" aria-labelledby="memories-title">
+      <div class="settings-section__header">
+        <div>
+          <h2 class="section-title" id="memories-title">Core Memories</h2>
+          <p class="section-subtitle">The episodes that shaped the series. Stored at maximum quality.</p>
+        </div>
+      </div>
+
+      <div class="memory-grid" id="memory-grid">
+
+        <div class="memory-card" id="memory-1" role="button" tabindex="0" aria-label="The Origin Story memory">
+          <div class="memory-card__emoji">👶</div>
+          <div class="memory-card__title">The Origin Story</div>
+          <div class="memory-card__desc">Season 1, Ep 1. Where it all began. Director's commentary: "Immediately chaotic."</div>
+          <div class="memory-card__year">2006</div>
+        </div>
+
+        <div class="memory-card" id="memory-2" role="button" tabindex="0" aria-label="The Köln Adventure memory">
+          <div class="memory-card__emoji">🏙️</div>
+          <div class="memory-card__title">The Köln Adventure</div>
+          <div class="memory-card__desc">Fan-favourite episode. Stunning location, even better company. High rewatch value.</div>
+          <div class="memory-card__year">2026</div>
+        </div>
+
+        <div class="memory-card" id="memory-3" role="button" tabindex="0" aria-label="The Pizza Summit memory">
+          <div class="memory-card__emoji">🍕</div>
+          <div class="memory-card__title">Pizza for 2 at 2</div>
+          <div class="memory-card__desc">Pretty sure we could buy Pizza Hut with how much we go there or order in. But hey, it's delicious.</div>
+          <div class="memory-card__year">2026</div>
+        </div>
+
+        <div class="memory-card" id="memory-4" role="button" tabindex="0" aria-label="The Cooking Chronicles memory">
+          <div class="memory-card__emoji">👩‍🍳</div>
+          <div class="memory-card__title">The Cooking Chronicles</div>
+          <div class="memory-card__desc">We don't talk about my (nonexistant) cooking skills. But your pasta -> amaaaaazing, best food ever fr</div>
+          <div class="memory-card__year">2026</div>
+        </div>
+
+        <div class="memory-card" id="memory-5" role="button" tabindex="0" aria-label="The Raccoon Incident memory">
+          <div class="memory-card__emoji">🦝</div>
+          <div class="memory-card__title">The Raccoon Lessons</div>
+          <div class="memory-card__desc">Never thought a raccoon would be such a good teacher. He's made it clear that I know virtually nothing about girls. I'm working on it.</div>
+          <div class="memory-card__year">2026</div>
+        </div>
+
+        <div class="memory-card" id="memory-6" role="button" tabindex="0" aria-label="Season 20 Premiere memory">
+          <div class="memory-card__emoji">🎂</div>
+          <div class="memory-card__title">Season 20 Premiere</div>
+          <div class="memory-card__desc">The milestone episode. 20 years of being extraordinary. Now streaming.</div>
+          <div class="memory-card__year">2026</div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ===== SECTION 3: CHARACTER STATS ===== -->
+    <section class="settings-section" id="section-stats" aria-labelledby="stats-title">
+      <div class="settings-section__header">
+        <div>
+          <h2 class="section-title" id="stats-title">Character Development Stats</h2>
+          <p class="section-subtitle">Progress tracked across 20 seasons. All values self-reported and accurate.</p>
+        </div>
+      </div>
+
+      <div class="progress-row" id="stat-authenticity">
+        <div class="progress-row__icon icon--red">✨</div>
+        <div class="progress-row__body">
+          <div class="progress-row__label">Authenticity</div>
+          <div class="progress-bar"><div class="progress-bar__fill" data-width="96" style="width:0%"></div></div>
+        </div>
+        <div class="progress-row__pct" data-target="96">0%</div>
+      </div>
+
+      <div class="progress-row" id="stat-empathy">
+        <div class="progress-row__icon icon--pink">💗</div>
+        <div class="progress-row__body">
+          <div class="progress-row__label">Empathy & Warmth</div>
+          <div class="progress-bar"><div class="progress-bar__fill green" data-width="99" style="width:0%"></div></div>
+        </div>
+        <div class="progress-row__pct" data-target="99">0%</div>
+      </div>
+
+      <div class="progress-row" id="stat-curiosity">
+        <div class="progress-row__icon icon--purple">🔭</div>
+        <div class="progress-row__body">
+          <div class="progress-row__label">Intelligence</div>
+          <div class="progress-bar"><div class="progress-bar__fill purple" data-width="88" style="width:0%"></div></div>
+        </div>
+        <div class="progress-row__pct" data-target="88">0%</div>
+      </div>
+
+      <div class="progress-row" id="stat-resilience">
+        <div class="progress-row__icon icon--blue">🛡️</div>
+        <div class="progress-row__body">
+          <div class="progress-row__label">Resilience</div>
+          <div class="progress-bar"><div class="progress-bar__fill blue" data-width="91" style="width:0%"></div></div>
+        </div>
+        <div class="progress-row__pct" data-target="91">0%</div>
+      </div>
+
+      <div class="progress-row" id="stat-fun">
+        <div class="progress-row__icon icon--gold">🎉</div>
+        <div class="progress-row__body">
+          <div class="progress-row__label">Fun Per Square Meter</div>
+          <div class="progress-bar"><div class="progress-bar__fill gold" data-width="100" style="width:0%"></div></div>
+        </div>
+        <div class="progress-row__pct" data-target="100">0%</div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 4: VIEWING PREFERENCES ===== -->
+    <section class="settings-section" id="section-prefs" aria-labelledby="prefs-title">
+      <div class="settings-section__header">
+        <div>
+          <h2 class="section-title" id="prefs-title">Viewing Preferences</h2>
+          <p class="section-subtitle">How you experience life. Adjust at any time.</p>
+        </div>
+      </div>
+
+      <div class="settings-row" id="pref-vibe" role="button" tabindex="0" aria-label="Default vibe setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--teal">🌊</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Default Vibe</p>
+            <p class="settings-row__value">Warm & spontaneous · Changes based on moon phase</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="pref-language" role="button" tabindex="0" aria-label="Language setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--blue">🗣️</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Communication Language</p>
+            <p class="settings-row__value">Honesty with warmth · Fluent in sarcasm & affirmations</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="pref-autoplay" role="button" tabindex="0" aria-label="Next adventure autoplay">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--green">▶️</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Autoplay Next Adventure</p>
+            <p class="settings-row__value">Enabled · Will say yes before the plan is even finished</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <label class="toggle" aria-label="Toggle autoplay">
+            <input type="checkbox" checked id="toggle-autoplay" />
+            <span class="toggle__slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="settings-row" id="pref-notifications" role="button" tabindex="0" aria-label="Birthday reminders setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--gold">🔔</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Birthday Reminders</p>
+            <p class="settings-row__value">Every year, June 21th · Already marked in hearts everywhere</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <label class="toggle" aria-label="Toggle birthday reminders">
+            <input type="checkbox" checked id="toggle-notifications" />
+            <span class="toggle__slider"></span>
+          </label>
+        </div>
+      </div>
+
+      <div class="settings-row" id="pref-quality" role="button" tabindex="0" aria-label="Memory quality setting">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--purple">💎</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Memory Quality</p>
+            <p class="settings-row__value">4K Ultra HD · Every moment stored in maximum resolution</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <span class="settings-row__tag tag--active">4K</span>
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SECTION 5: ACCOUNT ACTIONS ===== -->
+    <section class="settings-section" id="section-account" aria-labelledby="account-title">
+      <div class="settings-section__header">
+        <div>
+          <h2 class="section-title" id="account-title">Account</h2>
+          <p class="section-subtitle">Manage your Amaliaflix experience.</p>
+        </div>
+      </div>
+
+      <div class="settings-row" id="action-wishlist" role="button" tabindex="0" aria-label="Wishlist for Season 21">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--gold">⭐</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Wishlist for Season 21</p>
+            <p class="settings-row__value">Dreams, goals, and things to do before next birthday</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <span class="settings-row__tag tag--new">NEW</span>
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="action-share" role="button" tabindex="0" aria-label="Share your profile">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--blue">📤</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Share Your Story</p>
+            <p class="settings-row__value">Let people know 20 years of you is something worth celebrating</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+      <div class="settings-row" id="action-credits" role="button" tabindex="0" aria-label="Show closing credits">
+        <div class="settings-row__left">
+          <div class="settings-row__icon icon--red">🎬</div>
+          <div class="settings-row__text">
+            <p class="settings-row__label">Closing Credits</p>
+            <p class="settings-row__value">Everyone who made the show possible · A long and lovely list</p>
+          </div>
+        </div>
+        <div class="settings-row__right">
+          <svg class="chevron-right" viewBox="0 0 24 24"><polyline points="9 18 15 12 9 6"/></svg>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="profile-footer">
+    <p>Made with ❤️ for Amalia's 20th Birthday &nbsp;·&nbsp; © 2026 Amaliaflix</p>
+    <p>All personality traits are real. All settings are permanent. You cannot change who you are — and that's a very good thing.</p>
+  </footer>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <span class="toast__icon" id="toast-icon">✓</span>
+    <span id="toast-text">Setting saved</span>
+  </div>
+
+  <script src="profile.js"></script>
+</body>
+</html>

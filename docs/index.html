@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amaliaflix – Happy 20th, Amalia!</title>
+  <meta name="description" content="A Netflix-style birthday tribute to Amalia's 20th birthday. Curated memories, inside jokes, and the greatest hits of 20 years." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== FIXED HEADER ===== -->
+  <header class="nav" id="main-nav">
+    <div class="nav__left">
+      <a href="#" class="nav__logo" id="logo-link" aria-label="Amaliaflix Home">
+        <span class="logo__amalia">A</span><span class="logo__flix">FLIX</span>
+      </a>
+      <nav class="nav__links" aria-label="Main navigation">
+        <a href="#" class="nav__link nav__link--active">Home</a>
+        <a href="#" class="nav__link">TV Shows</a>
+        <a href="#" class="nav__link">Movies</a>
+        <a href="#" class="nav__link">New &amp; Popular</a>
+        <a href="#" class="nav__link">My List</a>
+      </nav>
+    </div>
+    <div class="nav__right">
+      <span class="nav__greeting" id="birthday-greeting">🎂 Happy 20th, Amalia!</span>
+      <a href="profile.html" class="nav__avatar" aria-label="Go to Profile" id="profile-avatar">A</a>
+    </div>
+  </header>
+
+  <!-- ===== HERO BANNER ===== -->
+  <section class="hero" id="hero-banner" aria-label="Featured content">
+    <div class="hero__bg">
+      <img src="imgs/The Establishing Shots/20260407_115421.jpg" alt="Hero backdrop" class="hero__img" />
+      <div class="hero__overlay"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__meta-tag">🎬 An Aflix Original Experience</div>
+      <h1 class="hero__title">The Amalia Chronicles</h1>
+      <p class="hero__subtitle">Season 20 · Unrated · 2006–2026</p>
+      <p class="hero__desc">
+        A critically acclaimed, Emmy-winning, binge-worthy saga spanning two decades of chaotic decision-making,
+        questionable life choices, and an inexplicable ability to make everything more fun.
+        Now streaming exclusively on Amaliaflix.
+      </p>
+      <div class="hero__actions">
+        <button class="btn btn--play" id="play-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M8 5v14l11-7z"/></svg>
+          Play
+        </button>
+        <button class="btn btn--info" id="more-info-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+          More Info
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="content" id="main-content">
+
+    <!-- ========================================
+         ROW 1: Just the Two of You
+         Folder: imgs/Just the Two of You/
+         Files: Selfie_5, Snapchat x4, legos_notes_two_of_us
+    ========================================= -->
+    <section class="row" id="row-selfies" aria-labelledby="row1-title">
+      <h2 class="row__title" id="row1-title">Just the Two of You <span class="row__subtitle">(The Chaotic Selfies)</span></h2>
+      <div class="row__track-wrapper">
+        <button class="row__chevron row__chevron--left" aria-label="Scroll left" id="r1-left">&#8249;</button>
+        <div class="row__track" id="row1-track">
+
+          <a href="#" class="card card--portrait" id="r1-c1" aria-label="Because You Watched: Our Terrible Decisions">
+            <div class="card__img-wrap">
+              <img src="imgs/Just the Two of You/Snapchat-1022523399.jpg" alt="Chaotic selfie 1" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">98% Match</span>
+              <h3 class="card__title">Because You Watched: Our Terrible Decisions</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r1-c2" aria-label="Top 10 Buddy Comedies in the Region">
+            <div class="card__img-wrap">
+              <img src="imgs/Just the Two of You/Snapchat-1174439249.jpg" alt="Chaotic selfie 2" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Top 10 Buddy Comedies in the Region</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r1-c3" aria-label="Critically Acclaimed Disasters">
+            <div class="card__img-wrap">
+              <img src="imgs/Just the Two of You/Snapchat-1669896129.jpg" alt="Chaotic selfie 3" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Critically Acclaimed Disasters</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r1-c4" aria-label="Unscripted Reality: Season 20">
+            <div class="card__img-wrap">
+              <img src="imgs/Just the Two of You/Snapchat-196099087.jpg" alt="Chaotic selfie 4" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Unscripted Reality: Season 20</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r1-c5" aria-label="Portrait of a Young Woman: Unfiltered">
+            <div class="card__img-wrap">
+              <img src="imgs/Just the Two of You/Selfie_5.jpg" alt="Chaotic selfie 5" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">94% Match</span>
+              <h3 class="card__title">Portrait of a Young Woman: Unfiltered</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r1-c6" aria-label="Notes from the Field: Object Study">
+            <div class="card__img-wrap">
+              <img src="imgs/Just the Two of You/legos_notes_two_of_us.jpg" alt="Legos and notes" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Notes from the Field: Object Study</h3>
+            </div>
+          </a>
+
+        </div>
+        <button class="row__chevron row__chevron--right" aria-label="Scroll right" id="r1-right">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- ========================================
+         ROW 2: The Group Pictures
+         Folder: imgs/The Group Pictures/
+         Files: 20260511, IMG-20260519, IMG_20260504, Snapchat-1970, cooking_group_pic, pizza_day_group
+    ========================================= -->
+    <section class="row" id="row-group" aria-labelledby="row2-title">
+      <h2 class="row__title" id="row2-title">The Group Pictures <span class="row__subtitle">(The Broader Friend Group)</span></h2>
+      <div class="row__track-wrapper">
+        <button class="row__chevron row__chevron--left" aria-label="Scroll left" id="r2-left">&#8249;</button>
+        <div class="row__track" id="row2-track">
+
+          <a href="#" class="card card--landscape" id="r2-c1" aria-label="Award-Winning Group Projects">
+            <div class="card__img-wrap">
+              <img src="imgs/The Group Pictures/20260511_171735.jpg" alt="Group photo 1" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Award-Winning Group Projects</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r2-c2" aria-label="Teammate Drama &amp; Betrayals">
+            <div class="card__img-wrap">
+              <img src="imgs/The Group Pictures/IMG_20260504_120258_643.jpg" alt="Group photo 2" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">95% Match</span>
+              <h3 class="card__title">Teammate Drama &amp; Betrayals</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r2-c3" aria-label="Epic Crossovers">
+            <div class="card__img-wrap">
+              <img src="imgs/The Group Pictures/IMG-20260519-WA0002.jpg" alt="Group photo 3" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Epic Crossovers</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r2-c4" aria-label="Ensemble Casts You May Know">
+            <div class="card__img-wrap">
+              <img src="imgs/The Group Pictures/Snapchat-1970759983.jpg" alt="Group photo 4" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Ensemble Casts You May Know</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r2-c5" aria-label="MasterChef: The Friend Group Edition">
+            <div class="card__img-wrap">
+              <img src="imgs/The Group Pictures/cooking_group_pic.jpg" alt="Group cooking" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">MasterChef: The Friend Group Edition</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r2-c6" aria-label="The Great Pizza Symposium">
+            <div class="card__img-wrap">
+              <img src="imgs/The Group Pictures/pizza_day_group.jpg" alt="Pizza day group" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">91% Match</span>
+              <h3 class="card__title">The Great Pizza Symposium</h3>
+            </div>
+          </a>
+
+        </div>
+        <button class="row__chevron row__chevron--right" aria-label="Scroll right" id="r2-right">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- ========================================
+         ROW 3: The Lore & Inside Jokes
+         Folder: imgs/The Lore & Inside Jokes/
+         Files: 20260317, Screenshot x2, cute_little_guy, koln_fav_pic, we_were_liars
+    ========================================= -->
+    <section class="row" id="row-lore" aria-labelledby="row3-title">
+      <h2 class="row__title" id="row3-title">The Lore &amp; Inside Jokes <span class="row__subtitle">(Screenshots, Objects &amp; Memes)</span></h2>
+      <div class="row__track-wrapper">
+        <button class="row__chevron row__chevron--left" aria-label="Scroll left" id="r3-left">&#8249;</button>
+        <div class="row__track" id="row3-track">
+
+          <a href="#" class="card card--portrait" id="r3-c1" aria-label="Nature &amp; Wildlife: Raccoon Edition">
+            <div class="card__img-wrap">
+              <img src="imgs/The Lore &amp; Inside Jokes/20260317_203804.jpg" alt="Lore photo 1" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">99% Match</span>
+              <h3 class="card__title">Nature &amp; Wildlife: Raccoon Edition</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r3-c2" aria-label="Sci-Fi, Fantasy &amp; Girl Math">
+            <div class="card__img-wrap">
+              <img src="imgs/The Lore &amp; Inside Jokes/Screenshot_20260604_220347_Samsung Notes.jpg" alt="Lore photo 2" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Sci-Fi, Fantasy &amp; Girl Math</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r3-c3" aria-label="Psychological Thrillers (Our Text History)">
+            <div class="card__img-wrap">
+              <img src="imgs/The Lore &amp; Inside Jokes/Screenshot_20260604_220450_TikTok.jpg" alt="Lore photo 3" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Psychological Thrillers (Our Text History)</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r3-c4" aria-label="Gritty Documentaries: Enemy of the State">
+            <div class="card__img-wrap">
+              <img src="imgs/The Lore &amp; Inside Jokes/we_were_liars_for_website.jpg" alt="Lore photo 4" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">97% Match</span>
+              <h3 class="card__title">Gritty Documentaries: Enemy of the State</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r3-c5" aria-label="Creature Feature: A Love Story">
+            <div class="card__img-wrap">
+              <img src="imgs/The Lore &amp; Inside Jokes/cute_little_guy_lore.jpg" alt="Cute little guy" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Creature Feature: A Love Story</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r3-c6" aria-label="International Art House: Köln">
+            <div class="card__img-wrap">
+              <img src="imgs/The Lore &amp; Inside Jokes/koln_fav_pic.jpg" alt="Köln favourite photo" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">96% Match</span>
+              <h3 class="card__title">International Art House: Köln</h3>
+            </div>
+          </a>
+
+        </div>
+        <button class="row__chevron row__chevron--right" aria-label="Scroll right" id="r3-right">&#8250;</button>
+      </div>
+    </section>
+
+    <!-- ========================================
+         ROW 4: The Establishing Shots
+         Folder: imgs/The Establishing Shots/
+         Files: 20250928, 20260306, 20260407, 20260411, womens_day_establishing_shots
+         (VID-20260601-WA0010.mp4 skipped — video file)
+    ========================================= -->
+    <section class="row" id="row-adventure" aria-labelledby="row4-title">
+      <h2 class="row__title" id="row4-title">The Establishing Shots <span class="row__subtitle">(Landscapes &amp; Adventures)</span></h2>
+      <div class="row__track-wrapper">
+        <button class="row__chevron row__chevron--left" aria-label="Scroll left" id="r4-left">&#8249;</button>
+        <div class="row__track" id="row4-track">
+
+          <a href="#" class="card card--landscape" id="r4-c1" aria-label="Cinematic B-Roll &amp; Establishing Shots">
+            <div class="card__img-wrap">
+              <img src="imgs/The Establishing Shots/20250928_164437.jpg" alt="Adventure photo 1" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Cinematic B-Roll &amp; Establishing Shots</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r4-c2" aria-label="Action &amp; Adventure: The Side Quests">
+            <div class="card__img-wrap">
+              <img src="imgs/The Establishing Shots/20260306_141510.jpg" alt="Adventure photo 2" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Action &amp; Adventure: The Side Quests</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r4-c3" aria-label="On Location: Places We Got Lost">
+            <div class="card__img-wrap">
+              <img src="imgs/The Establishing Shots/20260407_115421.jpg" alt="Adventure photo 3" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">96% Match</span>
+              <h3 class="card__title">On Location: Places We Got Lost</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r4-c4" aria-label="Travel Documentaries &amp; Escapades">
+            <div class="card__img-wrap">
+              <img src="imgs/The Establishing Shots/20260411_153146.jpg" alt="Adventure photo 4" loading="lazy" />
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Travel Documentaries &amp; Escapades</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--landscape" id="r4-c5" aria-label="Women&#39;s Day Special: Feature Length">
+            <div class="card__img-wrap">
+              <img src="imgs/The Establishing Shots/womens_day_establishing_shots.jpg" alt="Women's Day establishing shot" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <h3 class="card__title">Women's Day Special: Feature Length</h3>
+            </div>
+          </a>
+
+          <a href="#" class="card card--portrait" id="r4-c6" aria-label="Birthday Special: Director&#39;s Cut">
+            <div class="card__img-wrap">
+              <img src="imgs/The Establishing Shots/birthday_establishing_shots.jpg" alt="Birthday establishing shot" loading="lazy" />
+              <span class="badge badge--new-ep" aria-label="New Episodes">New Episodes</span>
+              <div class="card__shine"></div>
+            </div>
+            <div class="card__meta">
+              <span class="card__match card__match--green">100% Match</span>
+              <h3 class="card__title">Birthday Special: Director's Cut</h3>
+            </div>
+          </a>
+
+        </div>
+        <button class="row__chevron row__chevron--right" aria-label="Scroll right" id="r4-right">&#8250;</button>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer" id="main-footer">
+    <p class="footer__text">Made with ❤️ for Amalia's 20th Birthday &nbsp;·&nbsp; © 2026 Amaliaflix</p>
+    <p class="footer__sub">All memories are real. All titles are fictional. Please don't sue me.</p>
+  </footer>
+
+  <!-- ===== MODAL ===== -->
+  <div class="modal-backdrop" id="modal-backdrop" role="dialog" aria-modal="true" aria-labelledby="modal-title-text">
+    <div class="modal" id="modal-container">
+      <button class="modal__close" id="modal-close" aria-label="Close">✕</button>
+      <div class="modal__banner">
+        <img src="" alt="" id="modal-banner-img" />
+        <div class="modal__banner-overlay"></div>
+      </div>
+      <div class="modal__body">
+        <h2 class="modal__title" id="modal-title-text"></h2>
+        <div class="modal__top">
+          <span class="modal__match" id="modal-match"></span>
+          <span class="modal__badge" id="modal-badge" style="display:none">New Episodes</span>
+          <span class="modal__year"  id="modal-year"></span>
+          <span class="modal__duration" id="modal-duration"></span>
+        </div>
+        <div class="modal__actions">
+          <button class="modal__btn modal__btn--play">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M8 5v14l11-7z"/></svg>
+            Play
+          </button>
+          <button class="modal__btn modal__btn--list">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="17" height="17"><path d="M19 13H13v6h-2v-6H5v-2h6V5h2v6h6v2z"/></svg>
+            My List
+          </button>
+        </div>
+        <div class="modal__columns">
+          <p class="modal__desc" id="modal-desc"></p>
+          <ul class="modal__meta-list" id="modal-meta-list"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ===== MORE INFO MODAL ===== -->
+  <div class="modal-backdrop" id="more-info-modal" role="dialog" aria-modal="true" aria-labelledby="info-modal-title">
+    <div class="modal modal--feedback" id="info-modal-container">
+      <button class="modal__close" id="info-modal-close" aria-label="Close">✕</button>
+      <div class="modal__banner modal__banner--feedback">
+        <img src="imgs/The Establishing Shots/20260407_115421.jpg" alt="Amalia Chronicles backdrop" />
+        <div class="modal__banner-overlay"></div>
+      </div>
+      <div class="modal__body">
+        <h2 class="modal__title" id="info-modal-title">The Amalia Chronicles: Viewer Reviews</h2>
+        <p class="modal__desc" style="margin-bottom: 24px; color: var(--clr-gray); font-size: 14px;">
+          What makes Amalia the ultimate main character? Add your favorite things about her to the official review log below.
+        </p>
+        
+        <form id="feedback-form" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 30px;">
+          <div style="display: flex; gap: 10px;">
+            <input type="text" id="feedback-input" placeholder="e.g., Her chaotic plans, her amazing music taste..." required 
+              style="flex: 1; padding: 12px 16px; border-radius: 4px; background: #2a2a2a; border: 1px solid #444; color: #fff; font-family: var(--font-main); font-size: 14px; outline: none; transition: border-color 0.2s;" />
+            <button type="submit" class="btn btn--play" style="padding: 0 24px; font-weight: 700; border-radius: 4px; border: none; cursor: pointer; font-size: 14px;">
+              Add Review
+            </button>
+          </div>
+        </form>
+
+        <h3 style="font-size: 16px; font-weight: 700; margin-bottom: 12px; display: flex; align-items: center; gap: 8px;">
+          ⭐ Audience Favorites <span id="feedback-count" style="font-size: 12px; color: var(--clr-netflix); font-weight: 800; background: rgba(229,9,20,0.15); padding: 2px 8px; border-radius: 10px;">0</span>
+        </h3>
+        
+        <div id="feedback-list-container" style="max-height: 250px; overflow-y: auto; padding-right: 5px;">
+          <ul id="feedback-list" style="list-style: none; display: flex; flex-direction: column; gap: 8px;">
+            <!-- reviews dynamically added here -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
