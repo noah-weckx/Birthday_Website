@@ -20,7 +20,7 @@
       newEp:    false,
       year:     '2025-2026',
       duration: '1 Season · 10 Episodes',
-      desc:     'A decades-long unscripted series documenting two people who absolutely should not be trusted to plan anything, yet somehow keep doing exactly that. Features back-to-back terrible ideas, zero regrets, and an impossibly high rate of "this is actually kind of iconic in retrospect." Critics say: "Somehow works every time."',
+      desc:     'When I first moved from the US, I was definitely a lightweight and would exclusively drink beer. I can now proudly say that I am continuously learning how to drink properly. Give me vodka (with juice, I still need something with it) over regular beer any day. Ooo, or prosecco, which I now will fully debate is not champagne, but in its own entire category.',
       meta: [
         { label: 'Cast:',    value: 'Amalia Cember (known for being a passenger princess), Noah Weckx (known for paying even if it means getting yelled at)' },
         { label: 'Genre:',   value: 'Buddy Comedy, Reality' },
@@ -36,7 +36,7 @@
       newEp:    true,
       year:     '2024',
       duration: 'Ongoing',
-      desc:     "Amaliaflix's algorithm has determined — with 100% confidence — that this is one of the top buddy comedies currently filming in the region. New episodes drop unpredictably, often at 2am, and always involve a situation that makes complete sense at the time. Now in its third consecutive 'best season yet.'.",
+      desc:     "I’ve said it time and time again, but all you have to do is call, and I’ll be there in 30 minutes (20 if it’s late enough and I go fast). I learned that saying “we should” or “lets” is taken more seriously than I thought, so I promise to follow through with whatever comes after. And no matter what, I will always have fun because it’s with you.",
       meta: [
         { label: 'Cast:',    value: 'The Dynamic Duo (played by Amalia Cember and Noah Weckx)' },
         { label: 'Genre:',   value: 'Comedy, Friendship, Late Nights' },
@@ -52,7 +52,7 @@
       newEp:    false,
       year:     '2006–Present',
       duration: 'Unlimited Episodes',
-      desc:     'An anthology series collecting the most spectacular, well-intentioned disasters in recent memory. What separates this from lesser disaster content is the sheer artistic commitment — every catastrophe is approached with full confidence and zero contingency planning. Awarded "Best Unplanned Adventure" three years running.',
+      desc:     'The picture I used was supposed to be submitted for the like, class mascot challenges, never uploaded it, but that little guy is still sitting on my bed. And I know it’s a really random photo, but I think it also shows how random we are. We don’t ever really have a plan, things just kinda happen for the better, and I really like that about us.',
       meta: [
         { label: 'Cast:',    value: 'The Dynamic Duo (played by Amalia Cember and Noah Weckx)' },
         { label: 'Genre:',   value: 'Drama, Comedy, Documentary' },
@@ -68,23 +68,23 @@
       newEp:    true,
       year:     '2026',
       duration: 'Season 20 · New',
-      desc:     'The landmark 20th season of the longest-running unscripted reality show in Amaliaflix history. This season follows our subject as she enters her third decade — somehow more chaotic, more radiant, and more herself than ever. Producers confirm there is still no script, no safety net, and no signs of slowing down.',
+      desc:     "I really liked that you guys came to Wallonia and got to see my aunt and uncle’s place. I really like being there, it just naturally makes me feel more at peace. I absolutely love their kitchen and backyard, and of course the puppies. And I really liked getting to play for you on the guitar. Yes, I fucked up a few times, and even was hesitant to play at all, but I do enjoy playing for you.",
       meta: [
         { label: 'Season:',  value: '20 (The Big One)' },
         { label: 'Genre:',   value: 'Reality, Coming-of-Age' },
-        { label: 'Status:',  value: '🎬 Currently Filming' },
+        { label: 'Status:',  value: 'Currently Filming' },
         { label: 'Verdict:', value: 'Best season yet' },
       ],
     },
 
     'r1-c5': {
-      title:    'Portrait of a Young Woman: Unfiltered',
+      title:    "Torture (Just Kidding, It's Only Mild Abuse)",
       image:    'imgs/Just the Two of You/Selfie_5.jpg',
       match:    '94% Match',
       newEp:    false,
       year:     '2026',
       duration: 'Short Film',
-      desc:     "A quiet, unscripted portrait study. No context, no caption, no explanation. Just a single frame that somehow says more than a whole season of any other show on the platform. Critics have called it 'devastating in its simplicity.' The director says she was just messing around. Same thing, really.",
+      desc:     "I genuinely don’t know how you can just lay out in the sun all day for a tan, that is insane. I only survived for like, 5 minutes before I wanted to be back inside. The mindset was not there, I was not locked in. But I really liked the conversation that we had, and talking with you really took my mind off everything and gave me some nice down time to relax.",
       meta: [
         { label: 'Genre:',    value: 'Portrait, Art House, Short Film' },
         { label: 'Runtime:',  value: 'One frame, infinite meaning' },
@@ -94,16 +94,16 @@
     },
 
     'r1-c6': {
-      title:    'Notes from the Field: Object Study',
+      title:    'Legos, Puzzles, and Good Memories',
       image:    'imgs/Just the Two of You/legos_notes_two_of_us.jpg',
       match:    null,
       newEp:    true,
       year:     '2026',
       duration: 'Miniseries',
-      desc:     "An intimate still-life documentary cataloguing the objects left behind by two people who spend too much time together. Legos. Notes. The accumulated material evidence of a friendship conducted at full creative capacity. Curators are still debating whether this counts as art. The subjects don't care.",
+      desc:     "I really liked building Legos while we watched the series, and I really enjoyed the little notes that we sat and read before I started the build. Seeing that you put so much time and effort into my birthday meant so much to me. And I know I’ve said it a million times, but I mean it, and I’m going to keep saying it because I don’t think I’ll ever be able to thank you enough for that day and the gifts.",
       meta: [
         { label: 'Genre:',   value: 'Documentary, Still Life, Weird' },
-        { label: 'Objects:', value: 'Legos, handwriting, vibes' },
+        { label: 'Objects:', value: 'Legos, Handwriting, Vibes' },
         { label: 'Context:', value: 'Extremely specific' },
         { label: 'Status:',  value: 'New installment just dropped' },
       ],
@@ -111,17 +111,17 @@
 
     // ── ROW 2: The Group Pictures ────────────────────────────
     'r2-c1': {
-      title:    'Award-Winning Group Projects',
+      title:    'Award-Winning Group Projects: ZombieWare',
       image:    'imgs/The Group Pictures/20260511_171735.jpg',
       match:    null,
       newEp:    false,
-      year:     '2024–2026',
+      year:     '2025–2026',
       duration: 'Feature Length',
       desc:     'A sprawling ensemble piece documenting the rare phenomenon of a group of people who actually like each other. Unlike most group projects — which descend into chaos and resentment — this one somehow produced award-quality results. Nominated for Outstanding Chemistry and Best Collective Outfit Coordination.',
       meta: [
         { label: 'Cast:',    value: 'The Full Ensemble' },
         { label: 'Genre:',   value: 'Ensemble Drama, Feel-Good' },
-        { label: 'Awards:',  value: '🏆 Multiple Nominations' },
+        { label: 'Awards:',  value: 'Multiple Nominations' },
         { label: 'Snacks:',  value: 'Confirmed Present' },
       ],
     },
