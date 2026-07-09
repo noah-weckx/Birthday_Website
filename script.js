@@ -117,7 +117,7 @@
       newEp: false,
       year: '2025–2026',
       duration: 'Feature Length',
-      desc: 'A sprawling ensemble piece documenting the rare phenomenon of a group of people who actually like each other. Unlike most group projects — which descend into chaos and resentment — this one somehow produced award-quality results. Nominated for Outstanding Chemistry and Best Collective Outfit Coordination.',
+      desc: "I genuinely think that your guy’s project was by far the best one (don’t tell Bohdan or Valentyn I said that though). And I know that I wasn’t in your guy’s group, but the reason I included it was because I just liked the memories of testing out your guy’s game, and any projects that we got to work on together. I know that FullStack and IoT were stressful, but you made them so much easier to get through, and I’m so thankful that I had you there as my person to keep me in line. I really appreciate it.",
       meta: [
         { label: 'Cast:', value: 'The Full Ensemble' },
         { label: 'Genre:', value: 'Ensemble Drama, Feel-Good' },
@@ -133,7 +133,7 @@
       newEp: false,
       year: '2025',
       duration: '6 Episodes',
-      desc: "A tightly-plotted limited series exploring the interpersonal dynamics of a tight-knit group under pressure. Contains: exactly one mild betrayal (later resolved), several moments of 'I can't believe you did that,' and an emotionally satisfying finale where everyone ends up at someone's house eating chips. Highly recommended.",
+      desc: "I had so much fun when you guys all came over to my place to cook. I know it got hectic at points, but that was an experience that I will never forget. I never really got this close with my friends in the US, and maybe that’s on me, but I’m so thankful for getting close with all of you guys, and hope we get to do more things like that in the future.",
       meta: [
         { label: 'Cast:', value: 'The Inner Circle' },
         { label: 'Genre:', value: 'Drama, Friendship, Light Chaos' },
@@ -149,7 +149,7 @@
       newEp: true,
       year: '2026',
       duration: 'Crossover Event',
-      desc: 'When multiple friend groups collide in one cinematic event, you either get chaos or magic. This is both. The definitive crossover episode, bringing together characters from separate storylines in a single, unmissable gathering. New episodes of this crossover series are still airing — and apparently getting bigger every time.',
+      desc: "I’m pretty sure it was a teacher who said I looked like the Joker, but I find it funny that we went into McDonalds looking like that. I also am a little shocked that you got all of us to agree to the makeup after presentations. I mean, for me personally, you know I can’t ever really say no to you (and I’m not complaining). I just think it’s funny that we all met up there looking really formal and then just in zombie makeup. And we did the same thing with formal clothes at Pizza Hut too. Both of those days were actually really nice to hang out as the big class friend group.",
       meta: [
         { label: 'Event:', value: 'Crossover Special' },
         { label: 'Genre:', value: 'Action-Comedy, Event TV' },
@@ -165,7 +165,7 @@
       newEp: false,
       year: '2024–2026',
       duration: 'Ongoing Series',
-      desc: 'A recurring anthology featuring a rotating cast of familiar faces — the people who keep showing up, keep making things better, and are somehow always exactly where the story needs them to be. The algorithm keeps recommending this one because, statistically speaking, you already know half these people.',
+      desc: "I know that in my song I mention you coming to my hometown to see the town and people that raised me, but I like to think you kind of got that when you guys came to Wallonia. That house is where we stay every summer, and I’ve been going to Belgium for so long that my family there also helped raise me. In fact, my aunt is the first person in my family who made me feel like an adult and actually treated me like one. And she absolutely loved you.",
       meta: [
         { label: 'Cast:', value: 'You Probably Know Them' },
         { label: 'Genre:', value: 'Ensemble, Slice of Life' },
@@ -181,7 +181,7 @@
       newEp: true,
       year: '2026',
       duration: '1 Season · Ongoing',
-      desc: "A culinary competition series in which the stakes are unclear, the recipes are improvised, and nobody actually agreed to be judged. Features: a kitchen that was not designed for this many people, at least one moment of genuine teamwork, and a final dish that was better than anyone expected. Renewed for another season immediately.",
+      desc: "The food we made that day was by far some of the best I’ve ever had. And the pictures that came from that experience are peak, truly. And aside from the food, it was nice to just hang out in the kitchen with you guys. I think part of the reason that I enjoyed the food so much was because it was something I made with you guys, not just something that was made for me. The experience itself made it that much more enjoyable if that makes sense.",
       meta: [
         { label: 'Genre:', value: 'Cooking, Reality, Chaos' },
         { label: 'Judges:', value: 'Everyone, simultaneously' },
