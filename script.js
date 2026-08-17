@@ -197,7 +197,7 @@
       newEp: false,
       year: '2026',
       duration: 'Feature Event',
-      desc: "Gathered around a table. Pizza in front of them. Nothing else matters. This documentary captures a recurring phenomenon in which a group of people achieve perfect harmony through the simple act of eating pizza together. Scientists cannot explain it. We are not asking them to. This is a sacred tradition and it will continue.",
+      desc: "I love that we all just wore the sunglasses inside, legitimately it was a really nice vibe. I’m pretty sure that we filmed a tiktok or smth, and we did the pictures where tiktok chooses the sound. All I remember is that yours was unhinged, pretty sure mine was relatively normal. I know that I got kinda off towards the end, which I do apologize for, but up until that point, I really enjoyed my time, and I wanna do something similar again.",
       meta: [
         { label: 'Genre:', value: 'Slice of Life (literally)' },
         { label: 'Topping:', value: 'Classified' },
@@ -214,7 +214,7 @@
       newEp: false,
       year: '2026',
       duration: '1 Season · 4 Episodes',
-      desc: "A bold entry into the nature documentary genre. This one takes an unflinching, David Attenborough-level lens to a subject that is deeply specific and will mean absolutely nothing to anyone who wasn't there — but will cause anyone who WAS there to absolutely lose it. Paired best with the inside knowledge required to understand why this is so funny.",
+      desc: "The day that we went to Mechelen was completely random, I really enjoyed going. I think sometimes that us doing random things ends up being the time I enjoy the most. I’m not sure if that night was something I enjoyed more, cuz I know it was random and I enjoy music more. Anyways, yeah, hope you enjoyed the night as much as I did.",
       meta: [
         { label: 'Genre:', value: 'Drama' },
         { label: 'Runtime:', value: 'Short but devastating' },
@@ -230,7 +230,7 @@
       newEp: false,
       year: '2025–2026',
       duration: 'Ongoing',
-      desc: 'A genre-defying series that blends hard science fiction, high fantasy, and the uniquely powerful economic theory known as Girl Math. Watch as our protagonist constructs flawless logical frameworks for decisions that are, objectively, completely insane. The reasoning is airtight. The conclusions are chaotic. The vibes are immaculate.',
+      desc: "That screenshot should eventually be updated. It is crazy without context or the added information, but I don’t think that the context would make it any less crazy. I think my favorite quote in there will always be “Am I crazy for having his skin?”. Mainly because it’s what started the note, but also because no amount of context could ever make it better or more understandable.",
       meta: [
         { label: 'Genre:', value: 'Sci-Fi, Fantasy' },
         { label: 'Logic:', value: 'Shockingly consistent' },
@@ -246,7 +246,7 @@
       newEp: false,
       year: '2024–Present',
       duration: 'Infinite Episodes',
-      desc: 'Scroll back far enough and you have a full psychological thriller on your hands. This documentary series archives the raw, unedited transcript of a friendship conducted largely via text message — featuring: the panic texts, the 3am rambles, the "okay but hear me out" chains, and at least one conversation that should probably be studied by scientists.',
+      desc: "I think that racoon has taught me more than any teacher ever could. I still don’t understand your logic, but I’m getting there. If they made an account to teach languages, I would for sure follow to learn Romanian. I think I learn best when it’s an AI voiceover of a racoon XD",
       meta: [
         { label: 'Genre:', value: 'Education, Psychology' },
         { label: 'Episodes:', value: 'Estimated 47,000+' },
@@ -262,7 +262,7 @@
       newEp: false,
       year: '2026',
       duration: 'Feature Documentary',
-      desc: 'A searing, gritty exposé about a rivalry so specific and so justified that it barely requires explanation. The subject of this documentary is the enemy. We know who they are. We do not need to elaborate. This is their story, told from the perspective of the righteous side. Critically acclaimed. Extremely cathartic.',
+      desc: "I never expected to enjoy the show as much as I did, I’m being so fr. And ever since, all the movies or shows that you recommend have been amazing. I don’t think any show has made me that emotionally distressed though. Like, the ending, insane. Perfect, but insane, and I cried so much. Still, bomb ass show.",
       meta: [
         { label: 'Genre:', value: 'Documentary, True Crime Adjacent' },
         { label: 'Subject:', value: 'The Enemy (you know who)' },
