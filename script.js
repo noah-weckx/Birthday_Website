@@ -278,7 +278,7 @@
       newEp: true,
       year: '2026',
       duration: '1 Episode · Legendary',
-      desc: "He is small. He is there. He did not ask to be part of the lore and yet here he is, fully part of the lore. This creature feature documents the unlikely encounter between an unremarkable little guy and two people who immediately decided he was the most important thing they had ever seen. He was not. And yet.",
+      desc: "The picture is from sometime in the first semester, but you look adorable in it, and so proud of putting the beanie on him. I remember you getting mad at me for wanting to put him on the conveyor belt thingy at the store cuz you didn’t want to get him all dirty. And now, you have like, what, 4 other children? Smth like that. Hope you like all the stuffed animals.",
       meta: [
         { label: 'Genre:', value: 'Nature, Comedy, Creature Feature' },
         { label: 'Subject:', value: 'A little guy' },
